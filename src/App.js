@@ -25,7 +25,7 @@ const App = () => {
       <Services />
       <Testimonials />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
       <BackTopBtn />
     </div>
   );

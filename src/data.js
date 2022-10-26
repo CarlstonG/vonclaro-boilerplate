@@ -45,27 +45,24 @@ import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 // navigation
 export const navigation = [
   {
-    name: 'home',
+    name: 'HOME',
     href: 'home',
   },
   {
-    name: 'about',
+    name: 'ABOUT',
     href: 'about',
   },
+
   {
-    name: 'portfolio',
-    href: 'portfolio',
-  },
-  {
-    name: 'services',
+    name: 'OUR TEAM',
     href: 'services',
   },
   {
-    name: 'testimonials',
+    name: 'CAREERS',
     href: 'testimonials',
   },
   {
-    name: 'contact',
+    name: 'VONCLARO BLOG',
     href: 'contact',
   },
 ];
