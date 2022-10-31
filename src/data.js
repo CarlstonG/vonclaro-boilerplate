@@ -10,6 +10,7 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
+  FiFacebook,
 } from 'react-icons/fi';
 
 // companies icons
@@ -78,7 +79,7 @@ export const social = [
     href: '',
   },
   {
-    icon: <FiGithub />,
+    icon: <FiFacebook />,
     href: '',
   },
   {

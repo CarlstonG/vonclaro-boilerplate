@@ -1,37 +1,38 @@
 import React from 'react';
 
-// import woman image
-import WomanImg from '../assets/img/banner-woman2.webp';
+
 
 const Hero = () => {
   return (
-    <section
-      id='home'
-      className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
+    <section className=" text-white w-full h-full bg-herobanner bg-cover">
+    <div
+      className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"
     >
-        
-      <div className='container mx-auto h-full'>
-        <div className='flex items-center h-full pt-8'>
-          <div className='flex-1 flex flex-col items-center lg:items-start'>
-            <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
-            B2B & B2C Growth
-            </h1>
-            <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
-            EXPERTS
-            </h1>
-            {/* <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
-              Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore
-              dolor elit.
-            </p> */}
-            <button className='btn btn-md bg-transparent hover:bg-secondary-hover md:btn-lg transition-all border-white border rounded-full' >
-              LET US HELP
-            </button>
-            
-          </div>
-       
+      <div className="mx-auto max-w-3xl text-center">
+        <h1
+          className="text-white sm:text-5xl font-bold"
+        >
+          B2B & B2C Growth
+  
+          <span className="sm:block text-white">Experts. </span>
+        </h1>
+  
+  
+  
+        <div className="mt-8 flex flex-wrap justify-center gap-4">
+          <a
+            className="bg-transparent-500 border text-white border-slate-300 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+            href="/get-started"
+          >
+            LET US HELP
+          </a>
+  
+      
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+
   );
 };
 
