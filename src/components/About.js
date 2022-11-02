@@ -15,12 +15,12 @@ const About = () => {
           />
           <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>
             <div className='flex flex-col'>
-              <h2 className='text-black text-2xl mb-3'>
-                Text Here
+              <h1 className='text-black text-2xl mb-3 text-center'>
+                Experience Matters
+              </h1> 
+              <h2 className='mb-4 text-black text-center'>
+                Data First Company
               </h2>
-              <p className='mb-4 text-black'>
-                Marketing Sample Text
-              </p>
               <hr className='mb-8 opacity-5' />
               <p className='mb-8'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit tempore
@@ -32,9 +32,6 @@ const About = () => {
                 cupiditate ratione esse maxime eum recusandae ducimus.
               </p>
             </div>
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
-              Contact me
-            </button>
           </div>
         </div>
       </div>
